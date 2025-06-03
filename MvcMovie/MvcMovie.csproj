@@ -6,4 +6,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\welcome.cshtml\Controllers\" />
+    <Folder Include="Areas\welcome.cshtml\Data\" />
+    <Folder Include="Areas\welcome.cshtml\Models\" />
+    <Folder Include="Areas\welcome.cshtml\Views\" />
+  </ItemGroup>
+
 </Project>
